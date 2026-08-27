@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    image: python-basic-tasks
+    container_name: python-basic-tasks
+    working_dir: /app
+    # ローカルのソースをマウントして、コード変更を即反映
+    volumes:
+      - .:/app
+    # コンテナを起動したままにして docker compose exec で作業できるようにする
+    tty: true
+    stdin_open: true
+    # 例: 特定のスクリプトを実行したい場合は以下を有効化
+    # command: python main.py

@@ -1,0 +1,16 @@
+# 回答（Q1〜Q90）で使用するライブラリは
+# すべて Python 標準ライブラリのため、現時点で pip インストールは不要です。
+#
+# 使用モジュール（すべて標準ライブラリ）:
+#   abc, csv, datetime, functools, json, math, os, random, shutil, time, urllib
+#
+# 補足:
+#   Colab の `google.colab`（drive.mount 等）は Colab 専用のため、
+#   ローカル Docker では使用しません（static/ へのローカルファイルアクセスで代替）。
+#
+# 外部ライブラリ（numpy, pandas, requests など）を回答で使う場合は、
+# 下に追記して `docker compose build` すれば環境起動時にインストール済みになります。
+# 例:
+#   numpy==2.1.0
+#   pandas==2.2.3
+#   requests==2.32.3
