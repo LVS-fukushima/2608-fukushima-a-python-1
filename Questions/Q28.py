@@ -3,5 +3,8 @@
 #
 # 期待する出力：['Alice', 'Charlie', 'Dave']
 
+li = ['Alice', 'Bob', 'Charlie', 'Dave']
 
+li.remove('Bob')
 
+print(li)

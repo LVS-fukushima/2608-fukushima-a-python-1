@@ -3,5 +3,8 @@
 #
 # 期待する出力：(1, 5)
 
+li = [1,2,3,4,5]
 
+numbers = (li[0], li[-1])
 
+print(numbers)

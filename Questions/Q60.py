@@ -3,5 +3,8 @@
 #
 # 期待する出力：[5,4,3,2,1]
 
+li = [5,3,1,4,2]
 
+li.sort(reverse = True)
 
+print(li)

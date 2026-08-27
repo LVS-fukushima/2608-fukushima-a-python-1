@@ -3,5 +3,7 @@
 #
 # 期待する出力：nesad
 
+text = 'understand'
 
+print(text[1::2])
 

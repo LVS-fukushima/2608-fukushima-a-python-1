@@ -7,5 +7,6 @@
 #
 # 期待する出力：[[1, 3], [5], [7, 9]]
 
+list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-
+result = [[x for x in row if x % 2 != 0] for row in list]

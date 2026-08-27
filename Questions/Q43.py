@@ -9,5 +9,15 @@
 #
 # 期待する出力：{'apple': 10, 'grape': 20, 'orange': 30, 'pineapple': -1}
 
+d = {
+    'apple':10,
+    'grape':20, 
+    'orange':30
+}
 
+if 'apple' not in d:
+    d['apple'] = -1
+if 'pineapple' not in d:
+    d['pineapple'] = -1
 
+print(d)

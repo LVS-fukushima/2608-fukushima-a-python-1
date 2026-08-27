@@ -3,5 +3,8 @@
 #
 # 期待する出力：2 4
 
+li = [1,2,3,4,5]
 
-
+for number in li:
+    if number % 2 == 0:
+        print(number)

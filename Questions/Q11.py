@@ -3,5 +3,10 @@
 #
 # 期待する出力：25
 
+total = 0
 
+for _ in range(1, 10, 2):
+    total += _
+
+print(total)
 

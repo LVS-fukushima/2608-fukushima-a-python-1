@@ -3,5 +3,7 @@
 #
 # 期待する出力：t
 
+name = 'python'
 
+print(name[2])
 

@@ -4,5 +4,8 @@
 #
 # 期待する出力：['cat', 'dog', 'elephant', 'giraffe']
 
+li = ['cat', 'dog', 'elephant', None, 'giraffe']
 
+result = [animal for animal in li if animal is not None]
 
+print(result)

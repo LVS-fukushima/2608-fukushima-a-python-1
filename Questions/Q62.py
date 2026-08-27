@@ -4,5 +4,8 @@
 #
 # 期待する出力：[3, 5, 5]
 
+li = ['The', 'quick', 'brown']
 
+range = [len(text) for text in li]
 
+print(range)

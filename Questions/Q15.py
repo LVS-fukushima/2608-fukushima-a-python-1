@@ -3,5 +3,7 @@
 #
 # 期待する出力：python
 
+front = 'py'
+back = 'thon'
 
-
+print(front + back)

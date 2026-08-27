@@ -3,5 +3,8 @@
 #
 # 期待する出力：[5,5,5,5,5]
 
+li = [5, 4, 3, 2, 1]
 
+total = [number + index for number, index in enumerate(li)]
 
+print(total)

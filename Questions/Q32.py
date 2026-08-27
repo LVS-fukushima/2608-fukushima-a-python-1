@@ -9,5 +9,8 @@
 # Charlie: 85
 # ```
 
+names = ['Alice', 'Bob', 'Charlie']
+scores = [90, 75, 85]
 
-
+for name,score in zip(names, scores):
+    print(f'{name}: {score}')
