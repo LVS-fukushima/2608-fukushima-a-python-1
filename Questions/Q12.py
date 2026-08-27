@@ -3,5 +3,11 @@
 #
 # 期待する出力：15
 
+total = 0
+_ = 1
 
+while total <= 10:
+    total += _
+    _ += 1
 
+print(total)

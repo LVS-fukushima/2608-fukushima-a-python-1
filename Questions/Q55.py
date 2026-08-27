@@ -10,3 +10,9 @@
 # 3
 # 2
 # ```
+
+text = 'banana'
+
+print(text.startswith('ba'))
+print(text.count('a'))
+print(text.find('n'))

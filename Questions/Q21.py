@@ -3,5 +3,6 @@
 #
 # 期待する出力：THIS IS A SENTENCE .
 
+name = 'This Is A Sentence .'
 
-
+print(name.upper())

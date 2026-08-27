@@ -3,5 +3,7 @@
 #
 # 期待する出力：This is sentence .
 
+text = 'This is sentence .\n'
 
+print(text.strip())
 

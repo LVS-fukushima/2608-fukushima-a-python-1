@@ -3,5 +3,8 @@
 #
 # 期待する出力：['Alice', 'Charlie', 'Dave']
 
+li = ['Alice', 'Bob', 'Charlie', 'Dave']
 
+li.pop(1)
 
+print(li)

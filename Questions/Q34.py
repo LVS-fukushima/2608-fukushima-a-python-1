@@ -3,5 +3,9 @@
 #
 # 期待する出力：True
 
+li = [11,22,33,44,55]
 
-
+if 44 in li:
+    print(True)
+else:
+    print(False)

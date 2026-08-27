@@ -3,5 +3,7 @@
 #
 # 期待する出力：['C', 'C++', '//', 'python', 'java'], ['C C++ ', '', ' python java']
 
+text = 'C C++ // python java'
 
-
+print(text.split(' '))
+print(text.split('/'))

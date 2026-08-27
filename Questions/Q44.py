@@ -3,5 +3,6 @@
 #
 # 期待する出力：rain
 
+text = 'training'
 
-
+print(text[1:5])

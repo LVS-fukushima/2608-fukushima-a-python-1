@@ -3,5 +3,6 @@
 #
 # 期待する出力：This is a sentence
 
+li = ['This', 'is', 'a', 'sentence']
 
-
+print(' '.join(li))

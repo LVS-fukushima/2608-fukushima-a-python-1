@@ -3,5 +3,8 @@
 #
 # 期待する出力：1 3 5
 
+li = [1,2,3,4,5]
 
-
+for index,number in enumerate(li):
+    if index % 2 == 0:
+        print(number)

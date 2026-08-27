@@ -3,5 +3,6 @@
 #
 # 期待する出力：this is a sentence .
 
+name = 'This Is A Sentence .'
 
-
+print(name.lower())

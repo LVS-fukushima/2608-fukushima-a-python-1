@@ -3,5 +3,6 @@
 #
 # 期待する出力：20
 
+name = 'How many characters?'
 
-
+print(len(name))

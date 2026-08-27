@@ -3,5 +3,6 @@
 #
 # 期待する出力：someone
 
+name = 'some1'
 
-
+print(name.replace('1', 'one'))

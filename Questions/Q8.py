@@ -13,5 +13,14 @@
 #     print('xは3以上')
 # ```
 
+x = -1
 
+if 2 <= x < 3:
+    print('xは2以上3より小さい')
+elif 1 <= x < 2:
+    print('xは1以上2より小さい')
+elif x < 1:
+    print('xは1より小さい')
+else:
+    print('xは3以上')
 
